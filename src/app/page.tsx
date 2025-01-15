@@ -73,23 +73,6 @@ const mockReels = [
     ],
     likes: 1234
   },
-  {
-    id: '5',
-    videoUrl: 'https://www.pexels.com/video/red-heart-shaped-balloons-with-gifts-in-the-air-15465878/',
-    products: [
-      {
-        product: {
-          id: 'p1',
-          name: 'Cool T-Shirt',
-          price: 29.99,
-          url: '/products/t-shirt',
-          image: 'https://images.unsplash.com/photo-1500462918059-b1a0cb512f1d?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8cmFuZG9tfGVufDB8fDB8fHww'
-        },
-        position: { x: 50, y: 50 }
-      }
-    ],
-    likes: 1234
-  },
   // Add more mock reels...
 ];
 
