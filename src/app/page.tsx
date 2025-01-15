@@ -15,7 +15,7 @@ const mockReels = [
           name: 'Cool T-Shirt',
           price: 29.99,
           url: '/products/t-shirt',
-          image: 'https://images.unsplash.com/photo-1500462918059-b1a0cb512f1d?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8cmFuZG9tfGVufDB8fDB8fHww'
+          image: 'https://picsum.photos/200/300'
         },
         position: { x: 50, y: 50 }
       }
@@ -32,8 +32,7 @@ const mockReels = [
           name: 'Cool T-Shirt',
           price: 29.99,
           url: '/products/t-shirt',
-          image: 'https://images.unsplash.com/photo-1500462918059-b1a0cb512f1d?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8cmFuZG9tfGVufDB8fDB8fHww'
-        },
+          image: 'https://picsum.photos/200/300'        },
         position: { x: 50, y: 50 }
       }
     ],
@@ -49,8 +48,7 @@ const mockReels = [
           name: 'Cool T-Shirt',
           price: 29.99,
           url: '/products/t-shirt',
-          image: 'https://images.unsplash.com/photo-1500462918059-b1a0cb512f1d?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8cmFuZG9tfGVufDB8fDB8fHww'
-        },
+          image: 'https://picsum.photos/200/300'        },
         position: { x: 50, y: 50 }
       }
     ],
@@ -66,8 +64,7 @@ const mockReels = [
           name: 'Cool T-Shirt',
           price: 29.99,
           url: '/products/t-shirt',
-          image: 'https://images.unsplash.com/photo-1500462918059-b1a0cb512f1d?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8cmFuZG9tfGVufDB8fDB8fHww'
-        },
+          image: 'https://picsum.photos/200/300'        },
         position: { x: 50, y: 50 }
       }
     ],

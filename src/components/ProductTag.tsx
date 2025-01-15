@@ -15,8 +15,8 @@ const ProductTag = ({ product, position }: Props) => {
         top: `${position.y}%`
       }}
     >
-      <div className="bg-white rounded-lg shadow-lg p-2 transform -translate-x-1/2 -translate-y-1/2">
-        <Image src={product.image} alt={product.name} width={100} height={100} className="rounded-full" />
+      <div className="bg-white rounded-lg shadow-lg p-2 text-center transform -translate-x-1/2 -translate-y-1/2">
+        <Image src={product.image} alt={product.name} width={200} height={100} className="rounded-full" />
         <p className="font-medium text-[#000] text-sm">{product.name}</p>
         <p className="text-sm text-[#000]">${product.price}</p>
       </div>
