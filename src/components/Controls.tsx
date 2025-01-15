@@ -25,7 +25,6 @@ const Controls = ({
   onMuteToggle,
   onShowTags,
   onLike,
-  onShare,
   videoUrl,
 }: Props) => {
   const [isLiked, setIsLiked] = useState(false);

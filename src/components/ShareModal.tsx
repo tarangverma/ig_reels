@@ -14,7 +14,7 @@ interface Props {
   onClose: () => void;
 }
 
-const ShareModal = ({ videoUrl, isOpen, onClose }: Props) => {
+const ShareModal = ({ isOpen, onClose }: Props) => {
   const [copySuccess, setCopySuccess] = useState('');
   
   if (!isOpen) return null;
@@ -35,7 +35,7 @@ const ShareModal = ({ videoUrl, isOpen, onClose }: Props) => {
       setCopySuccess('Copied!');
       setTimeout(() => setCopySuccess(''), 2000);
     } catch (err) {
-      setCopySuccess('Failed to copy!');
+        console.log('Failed to copy!', err);
     }
   };
 

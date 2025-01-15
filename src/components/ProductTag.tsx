@@ -1,3 +1,4 @@
+import Image from 'next/image';
 import { Product } from '../types';
 
 interface Props {
@@ -15,7 +16,7 @@ const ProductTag = ({ product, position }: Props) => {
       }}
     >
       <div className="bg-white rounded-lg shadow-lg p-2 transform -translate-x-1/2 -translate-y-1/2">
-        <img src={product.image} alt={product.name} className="w-10 h-10 rounded-full" />
+        <Image src={product.image} alt={product.name} width={100} height={100} className="rounded-full" />
         <p className="font-medium text-[#000] text-sm">{product.name}</p>
         <p className="text-sm text-[#000]">${product.price}</p>
       </div>
